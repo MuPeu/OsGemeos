@@ -1,0 +1,311 @@
+@font-face{
+    font-family: 'Playfair Display';
+    src: url('../fonts/PlayfairDisplay-Regular.ttf');
+}
+
+@font-face{
+    font-family:'Inter';
+    src: url('../fonts/Inter-Regular.ttf');
+}
+
+*{
+    color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 309.34px;
+    font-family: 'Playfair Display';
+    align-self: center;
+}
+
+h2{
+    font-size: 81.31px;
+    align-self: center;
+}
+
+h3{
+    font-size: 44.75px;
+}
+
+body{
+    background-color: black;
+    overflow-x: hidden;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 24px;
+    padding-top: 20px;
+}
+
+nav{
+    font-size: 20px;
+    gap: 500px;
+    display: inline-flex;
+}
+
+.menu{
+    display: inline-flex;
+    gap: 57px;
+    margin-right: 104px;
+}
+
+main{
+    width: 100%;
+    position: relative;
+    font-size: 24px;
+    align-items: center;
+    top: 500px;
+    gap: 22px;
+    top: 50px;
+}
+
+.paragraph{
+    padding-top: 25px;
+    padding-left: 40px;
+    width: 678px;
+    padding-bottom: 30px;
+}
+
+.painting1{
+    position: absolute;
+    z-index: -1;
+    right: -75px;
+    top: 0;
+}
+
+.painting2{
+    position: absolute;
+    z-index: -1;
+    left: -75px;
+    bottom: 0;
+}
+
+.title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.title h1{
+    text-align: center;
+    line-height: 215px;
+}
+
+main button{
+    background-color: white;
+    color: black;
+}
+
+.button{
+    padding-top: 120px;
+    padding-left: 240px;
+}
+
+.quote{
+    font-size: 38.41px;
+    position: relative;
+    transform: translate(600px, 0);
+}
+
+.portfolio-container{
+    padding-top: 212px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.portfolio-row{
+    display: flex;
+    justify-content: center;
+    gap: 74px;
+}
+
+.portfolio-column1, .portfolio-column2{
+    display: flex;
+    flex-direction: column;
+    gap: 85px;
+}
+
+.about-container{
+    padding-top: 340px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 70px;
+}
+
+.about-img{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 71px;
+
+}
+
+.about{
+    width: 650px;
+    display: flex;
+    flex-direction: column;
+    font-size: 40px;
+    gap: 30px;
+}
+
+.testimonials-container{
+    padding-top: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 105px;
+}
+
+.testimonials-container .title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.testimonials-container .title p{
+    width: 1100px;
+    text-align: center;
+}
+
+.testimonials-container p{
+    font-size: 22px;
+}
+
+.testimonials-container button{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    font-size: 24px;
+    width: 220px;
+    height: 77px;
+}
+
+.testimonials-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 55px;
+}
+
+.testimonials-row a{
+    font-size: 22px;
+}
+
+.testimonials-column1, .testimonials-column2{
+    display: flex;
+    flex-direction: column;
+    gap: 55px;
+}
+
+.commet1, .commet2, .commet3{
+    background-color: #181818;
+}
+
+.commet1 .arrow, .commet2 .arrow, .commet3 .arrow{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.commet1, .commet2{
+    display: flex;
+    justify-content: center;
+    width: 770px;
+    gap: 13px;
+}
+
+.commet1 .content, .commet2 .content{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 20px;
+    padding-left: 23px;
+}
+
+.commet3{
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    height: 709px;
+    gap: 22px;
+}
+
+.commet3 .content{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    gap: 15px;
+}
+
+.see-all{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
+
+.contact-container{
+    padding-top: 365px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.contact-content{
+    width: 855px;
+    display: flex;
+    flex-direction: column;
+    gap: 58px;
+}
+
+.contact-content .name, .email, .message{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.contact-container input{
+    width: 100%;
+    background-color: transparent;
+    color: white;
+    border-bottom: 2px solid white;
+    font-size: 25px;
+}
+
+.contact-container button{
+    width: 110px;
+    height: 45px;
+    background-color: white;
+    color: black;
+    font-size: 38px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 410px;
+    padding-bottom: 75px;
+    gap: 24px;
+    font-size: 22px;
+}
+
+footer .links{
+    display: flex;
+    justify-content: center;
+    gap: 38px;
+}
